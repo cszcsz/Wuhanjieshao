@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome To WUHAN</title>
+    <link href="css/stylechi.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+    <link rel="stylesheet" type="text/css" href="css/stylewan.css">
+    <script type="text/javascript" src="js/diapo.js"></script>
+</head>
+<body>
+<div id="daohang">
+    <ul class="menu">
+        <li class="home">
+            <a href="index.html">
+                <span>首页  <i class="ss-navigatedown"> </i></span>
+                <span>首页  <i class="ss-navigatedown"> </i></span>
+                <span>首页  <i class="ss-navigatedown"> </i></span>
+                <span>首页  <i class="ss-navigatedown"> </i></span>
+            </a>
+        </li>
+        <li class="about">
+            <a href="jieshao.html">
+                <span>武汉介绍</span>
+                <span>武汉介绍</span>
+                <span>武汉介绍</span>
+                <span>武汉介绍</span>
+            </a>
+        </li>
+        <li class="contact">
+            <a href="chi.html">
+                <span>吃在武汉  <i class="ss-navigatedown"> </i></span>
+                <span>吃在武汉  <i class="ss-navigatedown"> </i></span>
+                <span>吃在武汉  <i class="ss-navigatedown"> </i></span>
+                <span>吃在武汉  <i class="ss-navigatedown"> </i></span>
+            </a>
+
+        </li>
+        <li class="twitter current">
+            <a href="wan.html">
+                <span>玩在武汉</span>
+                <span>玩在武汉</span>
+                <span>玩在武汉</span>
+                <span>玩在武汉</span>
+            </a>
+        </li>
+        <li class="twitter">
+            <a href="guanyuwo.html">
+                <span>关于我</span>
+                <span>关于我</span>
+                <span>关于我</span>
+                <span>关于我</span>
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+<div id="diapoContainer">
+    <img class="imgsrc" src="images/6.jpg" alt="黄鹤楼">
+    <img class="imgsrc" src="images/donghu.jpg" alt="东湖绿道">
+    <img class="imgsrc" src="images/moshan.jpg" alt="磨山">
+    <img class="imgsrc" src="images/5.jpg" alt="楚河汉街">
+    <img class="imgsrc" src="images/wandayingcheng.jpg" alt="万达影城">
+    <img class="imgsrc" src="images/huanlegu.jpg" alt="欢乐谷">
+
+    <div id="bkgcaption"></div>
+    <div id="caption"></div>
+</div>
+
+
+
+<script>
+function dom_onload() {
+if(document.getElementById("diapoContainer")) diapo.init(); else setTimeout("dom_onload();", 128);
+}
+dom_onload();
+</script>
+</body>
+</html>
