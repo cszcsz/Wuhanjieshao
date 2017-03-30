@@ -1,0 +1,76 @@
+
+
+
+
+html {
+    overflow: hidden;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: crosshair;
+}
+
+#diapoContainer {
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    width: 80%;
+    height: 80%;
+    background: #222;
+    overflow: hidden;
+}
+
+.imgDC {
+    position: absolute;
+    cursor: pointer;
+    border: #000 solid 2px;
+    filter: alpha(opacity=90);
+    opacity: 0.9;
+    visibility: hidden;
+}
+
+.spaDC {
+    position: absolute;
+    filter: alpha(opacity=20);
+    opacity: 0.2;
+    background: #000;
+    visibility: hidden;
+}
+
+.imgsrc {
+    position: absolute;
+    width: 250px;
+    height: 140px;
+    visibility: hidden;
+    margin: 4%;
+}
+
+#bkgcaption {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 6%;
+    background:#1a1a1a;
+}
+#caption {
+    position: absolute;
+    font-family: arial, helvetica, verdana, sans-serif;
+    white-space: nowrap;
+    color: #fff;
+    bottom: 0px;
+    width: 100%;
+    left: -10000px;
+    text-align: center;
+}
+
+body{
+    font-family: "Helvetica","Arial",serif;
+    background-image: url("../images/bc.jpg")
+}
